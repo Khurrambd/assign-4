@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+ <script src="new.js"></script>
+</head>
+<body>
+   <div class="main">
+      <h1>Simple Calculator</h1>
+      <input id="num1" type="number" placeholder="Enter first number">
+      <input id="num2" type="number" placeholder="Enter second number">
+      <div class="btn-list">
+         <button onclick="add()" class="btn-child">+</button>
+         <button onclick="minus()" class="btn-child">-</button>
+         <button onclick="multiplication()" class="btn-child">*</button>
+         <button onclick="division()" class="btn-child">/</button>
+      </div>
+     
+         
+      <table class="result-tbl">
+         <tr>
+            <td class="result">Result:</td>
+            <td><p id="print"></p></td>
+         </tr>  
+      </table>
+
+     
+   </div>
+  
+   
+
+   <script>
+      function add(){
+         var item1=parseInt(document.getElementById("num1").value);
+         var item2=parseInt(document.getElementById("num2").value);
+         document.getElementById("print").innerHTML=item1+item2;
+      }
+      function minus(){
+         var item1=parseInt(document.getElementById("num1").value);
+         var item2=parseInt(document.getElementById("num2").value);
+         document.getElementById("print").innerHTML=item1-item2;
+      }
+      function multiplication(){
+         var item1=parseInt(document.getElementById("num1").value);
+         var item2=parseInt(document.getElementById("num2").value);
+         document.getElementById("print").innerHTML=item1*item2;
+      }
+      function division(){
+         var item1=parseInt(document.getElementById("num1").value);
+         var item2=parseInt(document.getElementById("num2").value);
+         document.getElementById("print").innerHTML=item1/item2;
+      }
+   </script>
+</body>
+</html>

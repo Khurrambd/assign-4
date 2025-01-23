@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+ 
+   
+}
+.main{
+    background:lightsalmon;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    margin: 20% 50%;
+    transform: translate(-50%, -50%);
+
+}
+.main h1{
+    color: white;
+}
+.result{
+    color: white;
+    font-size: 25px;
+}
+
+.result-tbl{
+ 
+    padding-left: 150px;
+   
+}
+.main p{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+.main input{
+    padding: 10px;
+    margin-top: 10px;
+}
+.btn-list{
+    padding: 15px;
+    
+}
+.btn-child{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background: tomato;
+    border: none;
+   font-weight: bold;
+   font-size: 25px;
+   text-align: center;
+   margin: 0 5px;
+   border-radius: 3px;
+   color: white;
+}
+.btn-child:hover{
+background: rgb(241, 65, 33);
+}
